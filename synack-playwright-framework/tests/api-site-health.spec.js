@@ -1,4 +1,3 @@
-// tests/api-site-health.spec.js
 import { test, expect } from '@playwright/test';
 
 test.describe('Synack Site Health Checks', () => {

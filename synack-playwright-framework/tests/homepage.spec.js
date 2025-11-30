@@ -1,11 +1,12 @@
-import { test } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import { HomePage } from '../pages/HomePage.js';
 
-test('Verify Synack homepage header and See a Demo button', async ({ page }) => {
+test('Homepage UI elements visible', async ({ page }) => {
   const home = new HomePage(page);
 
-  await home.openHomePage();
-  await home.verifyHeaderMenuVisible();
-  await home.verifySeeDemoButtonVisible();
+  await home.open();
+
+  await expect(home.headerMenu).toBeVisible();
+  await expect(home.seeDemoButton).toBeVisible();
 });
 
