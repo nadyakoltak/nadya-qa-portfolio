@@ -49,15 +49,16 @@ playwright.config.js # Configuration
 
 ---
 
-## 🛠️ Installation
+## Installation
 
-```bash
+```
 npm install
 npx playwright install
+```
 
 ---
 
-## Run Tests
+## Run tests
 UI Tests (headed mode)
 
 ```
@@ -83,18 +84,38 @@ npx playwright test tests/login-security.spec.js
 ```
 
 Run k6 Performance Tests
+Load Test
 
 ```
 k6 run performance-tests/k6-load-test.js
+```
+
+Spike Test
+
+```
 k6 run performance-tests/k6-spike-test.js
+```
+
+Stress Test
+
+```
 k6 run performance-tests/k6-stress-test.js
+```
+
+Multi-API Flow Test
+
+```
 k6 run performance-tests/k6-mixed-multi-api-test.js
 ```
 ---
 
-### Test Execution Screenshot
+### Test Execution - Screenshot 
 
 ![Playwright Test Run](./assets/test-run-2025-12-07.png)
+
+### Test Execution - Live Run (GIF)
+
+![Playwright Test Run GIF](./assets/test-ran-synack.gif)
 
 ---
 
