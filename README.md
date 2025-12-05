@@ -14,12 +14,12 @@ I’m a QA Manager specializing in building scalable automation frameworks, lead
 
 ---
 
-## 📁 Projects
-## 📂 Featured Project
+# 🧪 Featured Project
+### [Synack Playwright Framework](./synack-playwright-framework/)
 
-| Project | Description |
-|--------|-------------|
-| Synack Playwright Framework | Full UI + API + security + performance testing framework |
+A full automation framework including UI, API, security, and k6 performance tests. 
+Built using Playwright with Page Object Model, reusable components, and 
+performance testing pipelines.
 
 ---
 
