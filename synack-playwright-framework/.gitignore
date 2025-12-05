@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

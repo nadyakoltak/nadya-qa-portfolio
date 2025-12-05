@@ -12,12 +12,5 @@ export class HomePage {
     await expect(this.page).toHaveTitle(/Synack/i);
   }
 
-  async verifyHeaderMenuVisible() {
-    await expect(this.headerMenu).toBeVisible();
-  }
-
-  async verifySeeDemoButtonVisible() {
-    await expect(this.seeDemoButton).toBeVisible();
-  }
 }
 
