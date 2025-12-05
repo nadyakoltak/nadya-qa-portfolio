@@ -15,13 +15,11 @@ I’m a QA Manager specializing in building scalable automation frameworks, lead
 ---
 
 ## 📁 Projects
-| Area | Project | Description |
-|------|----------|-------------|
-| UI Automation | [Coldwater Playwright Framework](./ui-automation-playwright/) | End-to-end testing framework built from scratch using Playwright |
-| API Testing | [Synack API Tests](./api-testing-postman/) | REST API testing with Postman and Playwright API |
-| Performance Testing | [Homepage Load Test](./performance-testing-jmeter/) | JMeter and Playwright hybrid performance checks |
-| Data Testing | [Order Data Validator](./data-validation-sql/) | SQL queries and scripts for data accuracy |
-| AI Agents | [Playwright AI QA Assistant](./ai-agents-playwright/) | Experimental use of Playwright AI Agents for intelligent test authoring |
+## 📂 Featured Project
+
+| Project | Description |
+|--------|-------------|
+| Synack Playwright Framework | Full UI + API + security + performance testing framework |
 
 ---
 
