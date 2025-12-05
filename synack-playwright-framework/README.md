@@ -33,3 +33,66 @@ This framework is for portfolio and educational purposes only. It tests only **p
 
 ## 📂 Folder Structure
 
+```
+pages/ # Page Objects
+components/ # Reusable UI components
+tests/ # UI, API, security test suites
+performance-tests/ # k6 performance testing scripts
+utils/ # Helpers
+playwright.config.js # Configuration
+```
+
+---
+
+## ✔️ UI Test Coverage
+
+- Homepage UI checks
+- Navigation: Solutions → Industries → Technology
+- Strict locator usage (`getByRole`, `getByLabel`, attribute selectors)
+- URL and title assertions
+
+---
+
+## 🛡️ Security Test Coverage
+
+- HTTP → HTTPS redirect validation
+- HSTS enforcement (`strict-transport-security`)
+- Cookie security flags:
+  - Secure
+  - HttpOnly
+  - SameSite
+- Password masking
+- Autocomplete validation
+
+These tests demonstrate awareness of **OWASP Authentication** weaknesses.
+
+---
+
+## 📡 API Test Coverage
+
+Using Playwright’s `request` fixture:
+
+- Endpoint health checks
+- Status assertions
+- Response body validation
+- Basic performance timing
+
+---
+
+## 🚀 Performance Testing (k6)
+
+Includes realistic performance scenarios:
+
+- Load test
+- Spike test
+- Stress test
+- Multi-endpoint API flow
+
+### Run command examples
+
+```bash
+k6 run performance-tests/k6-load-test.js
+k6 run performance-tests/k6-spike-test.js
+k6 run performance-tests/k6-stress-test.js
+k6 run performance-tests/k6-mixed-multi-api-test.js
+
