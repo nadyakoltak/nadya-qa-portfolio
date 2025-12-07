@@ -1,5 +1,8 @@
 # QA Manager Portfolio | Nadya Koltakova  
 
+[![GitHub stars](https://img.shields.io/github/stars/nadyakoltak/nadya-qa-portfolio?style=social)](https://github.com/nadyakoltak/nadya-qa-portfolio/stargazers)
+> ⭐️ If this portfolio helps you, please give it a star!
+
 Welcome to my QA Automation Portfolio!  
 I’m a QA Manager specializing in building scalable automation frameworks, leading QA teams, and integrating AI-driven testing solutions.
 
