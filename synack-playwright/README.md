@@ -1,8 +1,3 @@
-![GitHub stars](https://img.shields.io/github/stars/nadyakoltak/nadya-qa-portfolio?style=social)
-![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
-![Playwright](https://img.shields.io/badge/Playwright-JS-blue)
-![k6](https://img.shields.io/badge/k6-performance-orange)
-
 # 🔐 Synack Playwright Framework (Portfolio Project)
 
 ### Author: Nadezhda “Nadya” Koltakova: QA Manager & SDET
